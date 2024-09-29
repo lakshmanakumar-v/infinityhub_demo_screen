@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:infinityhub_demo_screens/custome_transactional_list.dart';
-import 'package:infinityhub_demo_screens/home_page.dart';
+import 'package:infinityhub_demo_screens/custom_widgets/custome_transactional_list.dart';
+import 'package:infinityhub_demo_screens/app_screens/home_page.dart';
 
 class TransactionalListPage extends StatefulWidget {
   const TransactionalListPage({super.key});

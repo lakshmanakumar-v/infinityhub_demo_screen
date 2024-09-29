@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:infinityhub_demo_screens/custom_payment_list.dart';
-import 'package:infinityhub_demo_screens/settings_page.dart';
-import 'package:infinityhub_demo_screens/transactional_list_page.dart';
+import 'package:infinityhub_demo_screens/app_screens/transactional_list_page.dart';
+import 'package:infinityhub_demo_screens/class/class_app.dart';
+import 'package:infinityhub_demo_screens/custom_widgets/custom_payment_list.dart';
+import 'package:infinityhub_demo_screens/app_screens/settings_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -38,18 +39,18 @@ class _HomePageState extends State<HomePage> {
         ),
         centerTitle: true,
         title: RichText(
-          text: const TextSpan(
+          text: TextSpan(
             children: [
               TextSpan(
-                text: "RASE",
-                style: TextStyle(
+                text: AppString().richtext1,
+                style: const TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Colors.green),
               ),
               TextSpan(
-                text: "ED",
-                style: TextStyle(
+                text: AppString().richtext2,
+                style: const TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Colors.deepPurple),
